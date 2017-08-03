@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+
 from scapy.all import sniff
 from scapy.all import Raw
 
