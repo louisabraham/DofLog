@@ -1,5 +1,7 @@
 # DofLog: Fight Data Sniffer for Dofus
 
+More informations: https://cadernis.fr/index.php?threads/ia-datas-de-combat.2024/
+
 ## How to install
 
     git clone https://github.com/louisabraham/DofLog
