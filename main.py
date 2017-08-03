@@ -7,6 +7,7 @@ from scapy.all import Raw
 from binrw import Data
 from message import Msg
 
+
 def raw(pa):
     return bytes(pa.getlayer(Raw))
 
