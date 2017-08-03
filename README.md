@@ -1,6 +1,13 @@
 # DofLog: Fight Data Sniffer for Dofus
 
-## Steps
+## How to install
+
+    git clone https://github.com/louisabraham/DofLog
+    cd DofLog
+    pip install -r requirements.txt
+
+
+## Steps planification
 
 1. Sniff and parse all frames
 2. Filter fight related frames
