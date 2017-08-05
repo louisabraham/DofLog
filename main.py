@@ -4,7 +4,7 @@
 from scapy.all import sniff
 from scapy.all import Raw
 
-from binrw import Data
+from binrw import Buffer
 from message import Msg
 
 
@@ -22,7 +22,7 @@ def msgHandler(pa, buf, action):
 
 def launch(action):
     print('DofLog is on!\nctrl+c to stop')
-    buf = Data()
+    buf = Buffer()
     sniff(filter='tcp port 5555', lfilter=lambda p: p.haslayer(
         Raw), prn=lambda p: msgHandler(p, buf, action))
     print('\nDofLog has been stopped!')
