@@ -33,3 +33,7 @@ def action(msg):
     action to execute on the message
     """
     print(msg.id)
+
+if __name__ == "__main__":
+    launch(action)
+    
