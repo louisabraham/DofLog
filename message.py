@@ -1,3 +1,5 @@
+from binrw import Data
+
 class Msg():
 
     def __init__(self, buf):
