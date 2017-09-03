@@ -3,7 +3,7 @@ from zlib import decompress
 
 class Data:
 
-    def __init__(self, data=bytes()):
+    def __init__(self, data=bytearray()):
         self.data = data
         self.pos = 0
 
